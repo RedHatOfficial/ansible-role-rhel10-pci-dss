@@ -37,6 +37,7 @@ var_sshd_set_login_grace_time: '60'
 sshd_max_auth_tries_value: '4'
 var_sshd_max_sessions: '10'
 var_sshd_set_maxstartups: 10:30:100
+var_audit_backlog_limit: '8192'
 var_accounts_passwords_pam_faillock_dir: /var/log/faillock
 var_auditd_admin_space_left_action: single
 var_auditd_space_left: '100'
